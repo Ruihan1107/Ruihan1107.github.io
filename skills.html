@@ -39,9 +39,14 @@
         }
 
         nav ul li a {
-            color: white;
+            color: white; /* 常态文字颜色 */
             text-decoration: none;
             font-weight: bold;
+        }
+
+        /* 设置导航栏链接悬停时的颜色为蓝色 */
+        nav ul li a:hover {
+            color: #3498db; /* 蓝色 */
         }
 
         section {
@@ -61,7 +66,11 @@
             color: #333;
         }
 
-        /* 去掉页脚 */
+        /* 修改 Tarot Reading 描述文本颜色为黄色 */
+        .tarot-description {
+            color: #FFDC2C; /* 黄色 */
+        }
+
     </style>
 </head>
 
@@ -83,14 +92,8 @@
 
     <section>
         <h2>Tarot Reading</h2>
-        <p>Recently, I've been learning tarot card reading. It's fascinating how the cards seem to offer guidance, but it also makes me wonder: Are these esoteric practices uncovering patterns or principles that humanity has yet to fully understand? While many people see tarot as just a form of entertainment or self-reflection, I believe there may be underlying universal truths that we have yet to grasp. I'm excited to explore this further and see where this journey takes me!</p>
+        <p class="tarot-description">Recently, I've been learning tarot card reading. It's fascinating how the cards seem to offer guidance, but it also makes me wonder: Are these esoteric practices uncovering patterns or principles that humanity has yet to fully understand? While many people see tarot as just a form of entertainment or self-reflection, I believe there may be underlying universal truths that we have yet to grasp. I'm excited to explore this further and see where this journey takes me!</p>
     </section>
-    
-<dl>
-    <dt>Tarot Reading</dt>
-    <dd>A form of divination that uses a deck of tarot cards to gain insight into past, present, or future events.</dd>
-</dl>
-    
 
 </body>
 
