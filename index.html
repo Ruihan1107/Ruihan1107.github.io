@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
@@ -17,14 +17,14 @@
             padding: 0;
             background-color: #FCFBE6; /* 背景色 */
         }
-        
+
         header {
             background-color: #87AF1A; /* 头部背景色 */
             color: black;
             text-align: center;
             padding: 20px;
         }
-        
+
         nav {
             background-color: #FF9BD0; /* 导航栏背景色 */
             padding: 10px;
@@ -43,8 +43,13 @@
         }
 
         nav ul li a {
-            color: white;
+            color: white; /* 默认链接颜色 */
             text-decoration: none;
+            font-weight: bold; /* 加粗链接 */
+        }
+
+        nav ul li a:hover {
+            color: #FFDC2C; /* 悬停时链接变为黄色 */
         }
 
         section {
@@ -54,10 +59,9 @@
             border-radius: 8px;
         }
 
-
         h1, h2 {
             font-family: 'Arial', sans-serif;
-            color: #FF9BD0; /* 主标题颜色 */
+            color: #FF9BD0; /* 标题颜色 */
         }
 
         ul {
@@ -69,8 +73,14 @@
         }
 
         a:hover {
-            color: #333; /* 悬停时链接颜色 */
+            color: #FF9BD0; /* 悬停时链接变为粉色 */
         }
+
+        /* 为点击时的链接设置颜色 */
+        nav ul li a:active {
+            color: #FFDC2C; /* 点击时变为黄色 */
+        }
+
     </style>
 
 </head>
@@ -103,6 +113,7 @@
             <li><a href="animals.html">Rate My Favorite Animals</a></li>
             <li><a href="traits.html">One Story of One Trait</a></li>
         </ul>
+    </section>
 
 </body>
 
