@@ -1,21 +1,21 @@
 /* style.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif, Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: #FCFBE6; /* 背景色 */
+    background-color: #FCFBE6; 
 }
 
 header {
-    background-color: #87AF1A; /* 头部背景色 */
+    background-color: #87AF1A; 
     color: white;
     text-align: center;
     padding: 20px;
 }
 
 nav {
-    background-color: #FF9BD0; /* 导航栏背景色 */
+    background-color: #FF9BD0; 
     padding: 10px;
 }
 
@@ -32,45 +32,45 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white; /* 默认链接颜色 */
+    color: white; 
     text-decoration: none;
-    font-weight: bold; /* 加粗链接 */
+    font-weight: bold; 
 }
 
 nav ul li a:hover {
-    color: #73CCFA; /* 悬停时链接变为蓝色 */
+    color: #73CCFA; 
 }
 
 section {
     padding: 20px;
     margin: 20px;
-    background-color: #73CCFA; /* 内容区背景色 */
+    background-color: #73CCFA; 
     border-radius: 8px;
 }
 
 h1 {
     font-family: 'Arial', sans-serif;
-    color: white; /* 修改为白色 */
+    color: white; 
 }
 
 h2 {
     font-family: 'Arial', sans-serif;
-    color: #FCFBE6; /* 修改为奶白色 */
+    color: #FCFBE6; 
 }
 
 ul {
-    color: #333; /* 列表项文字颜色 */
+    color: #333; 
 }
 
 a {
-    color: #87AF1A; /* 链接颜色 */
+    color: #87AF1A; 
 }
 
 a:hover {
-    color: #FF9BD0; /* 悬停时链接变为粉色 */
+    color: #FF9BD0; 
 }
 
-/* 为点击时的链接设置颜色 */
+
 nav ul li a:active {
-    color: #FCFBE6; /* 点击时变为奶白色 */
+    color: #FCFBE6; 
 }
